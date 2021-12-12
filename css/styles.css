@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/livvic-v8-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v8-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/livvic-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }  
+
+body {
+    font-family: 'Livvic';
+    background: #004047;
+    background-image: url(../img/circle.png);
+    background-repeat: no-repeat;
+    background-position: top 0 right calc(50% - -760px);
+}
+
+body::after {
+    content: '';
+    background-image: url(../img/kvadrat.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 140px;
+    height: 100px;
+    top: 890px;
+    right: calc(50% - 755px);
+}
+
+.container {
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+
+.card {
+    width: 350px !important;
+    height: 253px;
+    background: #012F34;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 76px;
+}
+
+.card-title {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #79C8C7;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.card-text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.card-img-top {
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 96px;
+    height: 96px;
+}
+
+.boxes {
+    flex-wrap: wrap;
+    margin-top: 34px;
+    margin-left: 100px;
+}
+
+.back {
+    background: #002529;
+}
+
+.social-link {
+    text-decoration: none;
+    margin-bottom: 63px;
+}
+
+.twitter {
+    margin-right: 16px;
+}
+
+path:hover {
+    transition: 0.3s ease;
+    fill: #F67E7E;
+}
+
+path:active {
+    fill: rgb(30, 141, 214);
+}
+
+.social-img {
+    margin-bottom: 63.5px;
+    margin-left: 145px;
+}
+
+.activeplus {
+    display: inline-block;
+    padding: 20px 20px 19px 20px;
+    background: #F67E7E;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.activeplus:hover {
+    background: #79C8C7;
+}
+
+.activeplus:active {
+    transition: none;
+    opacity: 0.7;
+}
+
+.plus-mes {
+    margin-bottom: 10px;
+}
+
+.instagram {
+    position: relative;
+    top: -12px;
+    right: calc(50% - 320px);
+    background: #79C8C7;
+}
+
+.instagram:hover {
+    background: #F67E7E;
+}
+
+@media only screen and (max-width:1400px) {
+    body {
+        background-image: none;
+    }
+
+    body::after {
+        background-image: none;
+        content: '';
+    }
+
+    .container {
+        margin-left: 200px;
+    }
+
+    
+.boxes {
+    margin-top: 34px;
+    margin-left: 70px;
+}
+
+.card {
+    width: 281px !important;
+    height: 253px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 56px;
+
+}
+
+}
